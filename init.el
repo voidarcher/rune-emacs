@@ -69,8 +69,9 @@
 	     '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (package-initialize)
 
-;; EEEEEEVILEVILEVILEVILEVILEVILLLLLL!!
-(unless (package-installed-p 'evil)
-  (package-install 'evil))
-(require 'evil)
-(evil-mode 1)
+;; EEEEEEEEVILEVILEVILEVILEVIL
+(use-package evil
+  :ensure t
+  :init
+  :config
+  (evil-mode 1))
