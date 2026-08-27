@@ -65,13 +65,20 @@
 
 ;; INITIALIZE PACKAGE SOURCES
 (require 'package)
-(add-to-list 'package-archives
-	     '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(setq package-archives
+      '(("gnu"   . "https://elpa.gnu.org/packages/")
+        ("melpa" . "https://melpa.org/packages/")))
+
 (package-initialize)
+
+;; MAKE SURE USE-PACKAGE IS INSTALLED
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+(require 'use-package)
 
 ;; EEEEEEEEVILEVILEVILEVILEVIL
 (use-package evil
   :ensure t
   :init
-  :config
   (evil-mode 1))
