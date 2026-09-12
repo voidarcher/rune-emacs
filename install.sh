@@ -30,8 +30,8 @@ echo "----------------------------------------------------"
 
 # Cleanup
 echo "Cleaning up ~/$EMACSDIR..."
-echo "All done!"
 rm -rf ./.git install.sh LICENSE README.md TODO 
+echo "All done!"
 
 # Welcome message 
 echo ""
