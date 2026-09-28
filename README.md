@@ -22,7 +22,7 @@ most likely:
 
 ### Prerequisites
 The main requirement is **[GNU Emacs](https://www.gnu.org/software/emacs/)** (please note that this
-program has only been tested on Emacs 28.2+). You will also need **git** installed on your system.
+program has only been tested on Emacs 28.2+). **You will also need git** installed on your system.
 Other than that, you really don't need anything else, though please note that this is a **Linux-only** 
 program (though it might work fine on MacOS). Remember, this is meant to be Emacs for someone who 
 really doesn't know how to get started. At least at this point. There really isn't much going on 
@@ -75,7 +75,7 @@ Once that's done, you're good to go!
 (Please ignore the error messages on your first startup. I'm working on getting rid of those.)
 
 ### Notes
-* This has only been tested on Arch Linux, Gentoo, and Debian 12 Stable (Bookworm)
+* This has only been tested on Arch Linux, Gentoo, and Debian 12 and 13 Stable
 * This has only been tested on Emacs 28.2+ (Specifically, 28.2 and 30.1)
 * This program does not require sudo; it only affects files in your $HOME directory
 * It assumes that you are using ~/.emacs.d as your Emacs configuration directory
