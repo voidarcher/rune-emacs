@@ -49,9 +49,6 @@ sudo pacman -Syu emacs
 The instructions for installing Git are identical, just switch out ```emacs``` with ```git```.
 
 ### Installation
-(Full discolure: if you're reading this, I haven't actually *tested* this out yet. I'll get 
-to it tomorrow. Probably.)
-
 The easiest way to install this is to simply use the script included in this GitHub repo. You 
 can download it yourself by clicking on the ```install.sh``` file above and clicking the button 
 marked "Download raw file." in the upper-right corner. 
